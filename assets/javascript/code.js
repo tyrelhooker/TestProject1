@@ -307,7 +307,7 @@ $(".jumbotron").on("click", function(){
         }
         else if (localAtmo == "Clouds" && marsAtmo == "Sunny" ) {
         $("#compare-weather").append("<p>It's Sunny on mars today, unlike home. However, its probably still darker on Mars despite the clouds, since the sun is an extra 50,000,000 miles away </p>");
-        $(".weather-image").append("<img src='assets/images/mars-night.jpg' width=300px>");
+        $(".weather-image").append("<img src='assets/images/mars-night.JPG' width=300px>");
         }
         else if (localAtmo == "Clear") {
         $("#compare-weather").append("<p>Clear Skies at home is a happy reminder of how we have a glorious atmosphere that we can breathe. Unlike on Mars, which has only 60% as much atmosphere in general, and the majority of it is Carbon Dioxide.</p>");
