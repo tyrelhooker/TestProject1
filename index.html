@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>    
+        <meta charset="utf-8" />
+        <title>Red Rover</title>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css">
+    
+        <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+        <script src="assets/javascript/howler.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+        <div class="container text-center">
+            <div class="header text-right">
+                <span>
+                    <a href="index.html">Home</a>
+                    <a href="about.html" id="about">About</a>
+                </span>
+            </div>
+            <div class="jumbotron">
+                <h1 class="display-4">Red Rover</h1>
+                <p class="lead" id="colorChange">You think your weather's bad? At least you're not on Mars.</p>
+            </div>
+            <div id="main-content">
+                <button class="btn btn-primary btn-lg hidden" id="launch">Launch</button>
+            </div>
+            <div id="more-info">
+                <div class="card" style="width: 100%">
+                    <div class="card-body">
+                        <h5 class="card-title">Look Here For More Information</h5>
+                        <br>
+                        <a href="https://www.nasa.gov/mission_pages/msl/index.html" target="blank" class="btn btn-primary" id="curiosity">Curiosity</a>
+                        <a href="https://www.nasa.gov/mission_pages/mars/images/index.html" target="blank" class="btn btn-primary" id="somewhere2">Mars Images</a>
+                    </div>
+                </div>
+            </div>
+            <div id="howler-buttons">
+                <button class="btn btn-default" id='howler-play'>Play</button>
+                <button class="btn btn-default" id='howler-pause'>Pause</button>
+                <button class="btn btn-default" id='howler-stop'>Stop</button>
+                <button class="btn btn-default" id='howler-volup'>Vol+</button>
+                <button class="btn btn-default" id='howler-voldown'>Vol-</button>
+            </div>
+        </div>
+    </body>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <script src="assets/javascript/code.js" type="text/javascript"></script>
+</html>

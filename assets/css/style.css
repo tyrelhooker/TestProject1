@@ -1,0 +1,95 @@
+*{
+  color: white;
+} 
+
+body{
+  background-color: #993c33;
+}
+
+a:link,a:visited{
+  text-decoration: none;
+  color: white;
+  padding-left: 7px;
+  padding-right: 4px;
+}
+
+#about{
+  border-left: 1px solid white;
+}
+
+a:hover{
+  color:darkgray;
+}
+
+.header{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.display-4,#launch,#relaunch,.card-title{
+  font-family: 'Orbitron', sans-serif;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.card-title{
+  font-size: 25px;
+}
+
+.jumbotron {
+  background-image: url("../images/planet.jpg");
+}
+
+.card,.weather-image,.jumbotron{
+  border: 2px solid oldlace;
+}
+
+.card,.btn{
+  background-color: black;
+}
+
+.btn{
+  margin-bottom: 20px;
+  border: 1px solid oldlace;
+}
+
+.btn:hover{
+  background-color: dimgray;
+}
+
+#main-content,#more-info{
+  margin-bottom: 20px;
+}
+
+.local-weather-style,.mars-weather-style{
+  margin: 20px;
+}
+
+#curiosity{
+  margin-right: 10px;
+}
+
+.weather-image{
+  float: left;
+  margin-right: 20px;
+}
+
+#compare-weather,#compare-temp{
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.mars-image,.earth-image{
+    float:left;
+    margin-right: 15px;
+}
+
+hr{
+    border-color: white;
+}
+
+.biggerText{
+    font-size: 22px;
+}
