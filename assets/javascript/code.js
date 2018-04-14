@@ -112,7 +112,7 @@ $(".jumbotron").on("click", function(){
     // Geolocation IP API call function
     function FXweatherGeolocation () {
         // The URL to query the ip-API
-        var queryURL = "http://ip-api.com/json";
+        var queryURL = "https://ipapi.co/json/";
         // AJAX call to ip-API
         $.ajax({
             url: queryURL,
@@ -122,8 +122,8 @@ $(".jumbotron").on("click", function(){
         .then(function(response) {
             // Assigns response object to global variable     
             localLocation = response;
-            console.log("ip-api lat" + localLocation.lat);
-            console.log("ip-api lon" + localLocation.lon);
+            console.log("ip-api lat" + localLocation.latitude);
+            console.log("ip-api lon" + localLocation.longitude);
             FXdisplayLocalWeather();
         });
         
